@@ -1,5 +1,5 @@
 import jobsData from "@/database/jobs"
-import { IJobsData } from "@/types";
+import { IJobsData } from "@/interfaces";
 import { NextResponse, NextRequest } from 'next/server'
 
 export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
