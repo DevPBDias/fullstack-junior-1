@@ -1,9 +1,17 @@
 import jobsData from "@/database/jobs"
 import { IJobsData } from "@/interfaces";
 import { NextResponse, NextRequest } from 'next/server'
+import { headers } from 'next/headers'
 
 export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
     try {
+        const headersList = headers()
+        const authorization = headersList.get('authorization')
+    
+        if (authorization !== process.env.SECRET) {
+          return NextResponse.json({ message: 'User not authorized' }, { status: 401 })
+        }
+
         const id = params.id;
         const jobFound: IJobsData[] = jobsData?.filter((job) => job.id === Number(id))
 
