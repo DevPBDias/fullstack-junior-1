@@ -1,4 +1,4 @@
-import { ISubmitData } from "@/types";
+import { ISubmitData } from "@/interfaces";
 import { NextResponse, NextRequest } from 'next/server'
 
 export async function POST(request: NextRequest) {
