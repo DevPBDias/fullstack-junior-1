@@ -7,6 +7,11 @@
   --secondary-color: #FBFBFB;
 }
 
+* {
+  border: 1px solid red;
+}
+
 body {
   background-color: var(--primary-color);
+  box-sizing: border-box;
 }
