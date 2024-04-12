@@ -5,6 +5,8 @@
 :root {
   --primary-color: #515DEF;
   --secondary-color: #FBFBFB;
+  --txt-color-primary: #333333;
+  --txt-color-secondary: #909090;
 }
 
 * {
