@@ -6,3 +6,7 @@
   --primary-color: #515DEF;
   --secondary-color: #FBFBFB;
 }
+
+body {
+  background-color: var(--primary-color);
+}
