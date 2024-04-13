@@ -5,13 +5,13 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="relative flex flex-row">
+    <main className="relative h-screen">
       <section>
         <Navbar />
         <HeroText />
-        <HeroServices />
       </section>
       <HeroImage />
+      <HeroServices />
     </main>
   );
 }

@@ -24,7 +24,7 @@ const HeroText = () => {
             className='flex flex-row gap-x-[8px] p-[16px] items-center h-[80px] w-[299px] bg-[#FBFBFB] justify-center font-normal text-2xl text-[#333333] leading-10'
             type='button'>
                 Let’s Collaborate
-                <Image className='h-[36px]' src={arrow} alt="arrow icon" />
+                <Image className='w-[48px] h-[48px]' src={arrow} alt="arrow icon" />
             </button>
         </section>
     )
