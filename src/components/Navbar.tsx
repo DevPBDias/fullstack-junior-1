@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { headerLinks } from '@/utils/navbarLinks'
 const Navbar = () => {
     return (
-        <header className='w-full h-[120px] flex justify-between m-auto items-center'>
+        <header className='w-[1112px] h-[120px] flex justify-start items-center'>
             <section className='ml-[160px] flex flex-row justify-between m-auto items-center'>
                 <div className='flex flex-row justify-between gap-x-[148px]'>
                     <div className='w-[92px] h-[54px] flex items-center'>

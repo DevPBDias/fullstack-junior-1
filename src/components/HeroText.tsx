@@ -2,10 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import arrow from '../assets/Arrow.svg'
 
-
 const HeroText = () => {
     return (
-        <section className='mt-[40px] flex flex-col ml-[160px] gap-4 justify-start'>
+        <section className='w-[784px] mt-[40px] flex flex-col ml-[160px] gap-4 justify-start'>
             <p className='font-normal text-2xl text-[#FBFBFB]'>
                 Hi, There!
             </p>
