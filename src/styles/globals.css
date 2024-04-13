@@ -12,4 +12,42 @@
 body {
   background-color: var(--primary-color);
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+@layer components {
+  .normal_txt {
+    @apply font-normal text-[24px] text-[--secondary-color] leading-[40px];
+  }
+
+  .bold_title {
+    @apply font-bold text-[64px] text-[--secondary-color] leading-[80px];
+  }
+
+  .main_btn_txt {
+    @apply font-normal text-[24px] text-[--txt-color-primary] leading-[40px];
+  }
+
+  .main_btn_container {
+    @apply flex flex-row items-center bg-[--secondary-color] justify-center;
+  }
+
+  .hero_container {
+    @apply flex flex-col ml-[160px] justify-start;
+  }
+
+  .scroll_arrow_txt {
+    @apply rotate-[-90deg] text-[--txt-color-secondary] font-normal text-[18px] leading-[40px]
+  }
+
+  .scroll_arrow_container {
+    @apply  flex flex-col items-center gap-[8px] absolute;
+  }
+
+  .img_size {
+    @apply w-full h-full
+  }
 }
