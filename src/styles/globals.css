@@ -18,6 +18,17 @@ body {
   text-decoration: none;
 }
 
+@layer base {
+  header {
+    @apply flex justify-start items-center;
+  }
+
+  nav {
+    @apply flex flex-row justify-between m-auto items-center;
+  }
+
+}
+
 @layer components {
   .normal_txt {
     @apply font-normal text-[24px] text-[--secondary-color] leading-[40px];
@@ -44,10 +55,46 @@ body {
   }
 
   .scroll_arrow_container {
-    @apply  flex flex-col items-center gap-[8px] absolute;
+    @apply flex flex-col items-center gap-[8px] absolute;
   }
 
   .img_size {
     @apply w-full h-full
+  }
+
+  .flex_horizontal_bw {
+    @apply flex flex-row justify-between
+  }
+
+  .flex_vetical_bw {
+    @apply flex flex-col justify-between
+  }
+
+  .nav_links {
+    @apply font-normal text-lg text-[--secondary-color]
+  }
+
+  .btn_contact {
+    @apply w-[149px] h-[60px] absolute bg-[--primary-color]
+  }
+
+  .service_container {
+    @apply absolute bottom-0 left-0 bg-[--secondary-color]
+  }
+
+  .cards_container {
+    @apply flex flex-row gap-[24px] items-center m-auto
+  }
+
+  .card_txt_container {
+    @apply flex flex-col w-full items-start gap-[8px]
+  }
+
+  .card_title {
+    @apply font-bold text-[18px] leading-[27px] text-[--txt-color-primary]
+  }
+
+  .card_description {
+    @apply font-normal text-[18px] leading-[27px] text-[--txt-color-secondary]
   }
 }
