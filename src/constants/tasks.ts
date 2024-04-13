@@ -1,7 +1,7 @@
 import { ITasks } from "@/interfaces";
-import webDesign from '../assets/Web Design.svg'
-import socialMedia from '../assets/Social Media.svg'
-import artWork from '../assets/Design.svg'
+import webDesign from '../../public/assets/icons/webDesign.svg'
+import socialMedia from '../../public/assets/icons/socialMedia.svg'
+import artWork from '../../public/assets/icons/artWork.svg'
 
 export const tasksData: ITasks[] = [
     {

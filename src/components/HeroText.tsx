@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import arrow from '../assets/Arrow.svg'
+import arrowRight from '../../public/assets/icons/arrowRight.svg'
 
 const HeroText = () => {
     return (
@@ -24,7 +24,7 @@ const HeroText = () => {
             className='mt-[40px] flex flex-row items-center h-[80px] w-[299px] bg-[#FBFBFB] justify-center font-normal text-[24px] text-[#333333] leading-[40px]'
             type='button'>
                 Let’s Collaborate
-                <Image className='w-[48px] h-[48px]' src={arrow} alt="arrow icon" />
+                <Image className='w-[48px] h-[48px]' src={arrowRight} alt="arrow icon" />
             </button>
         </section>
     )
