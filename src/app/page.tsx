@@ -2,6 +2,7 @@ import HeroImage from "@/components/HeroImage";
 import HeroServices from "@/components/HeroServices";
 import HeroText from "@/components/HeroText";
 import Navbar from "@/components/Navbar";
+import ScrollArrow from "@/components/ScrollArrow";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </section>
       <HeroImage />
       <HeroServices />
+      <ScrollArrow />
     </main>
   );
 }

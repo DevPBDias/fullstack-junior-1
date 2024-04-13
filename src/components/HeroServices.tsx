@@ -17,7 +17,6 @@ const HeroServices = () => {
                     ))
                 }
             </div>
-
         </section>
     )
 }
