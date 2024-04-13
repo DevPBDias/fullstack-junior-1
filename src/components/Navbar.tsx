@@ -2,7 +2,8 @@ import React from 'react'
 import logo from '../assets/Livia..png'
 import Image from 'next/image'
 import Link from 'next/link'
-import { headerLinks } from '@/utils/navbarLinks'
+import { headerLinks } from '@/constants/navbarLinks'
+
 const Navbar = () => {
     return (
         <header className='w-[1112px] h-[120px] flex justify-start items-center'>

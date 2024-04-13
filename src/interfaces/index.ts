@@ -18,3 +18,9 @@ export type ILinks = {
     name: string,
     path: string,
 }
+
+export type ITasks = {
+    title: string,
+    icon: string,
+    description: string,
+}
