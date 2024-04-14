@@ -75,7 +75,7 @@ body {
   }
 
   .btn_contact {
-    @apply w-[149px] h-[60px] absolute bg-[--primary-color]
+    @apply w-[149px] h-[60px] absolute bg-[--primary-color] flex items-center justify-center
   }
 
   .service_container {

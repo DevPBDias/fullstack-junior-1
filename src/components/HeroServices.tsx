@@ -4,7 +4,7 @@ import Card from './Card'
 
 const HeroServices = () => {
     return (
-        <section className='service_container w-[1352px] h-[297px]'>
+        <section className='service_container w-[70.41%] h-[297px]'>
             <div className='cards_container ml-[160px] h-full'>
                 {
                     tasksData.map((task) => (

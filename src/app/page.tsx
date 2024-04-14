@@ -6,8 +6,8 @@ import ScrollArrow from "@/components/ScrollArrow";
 
 export default function Home() {
   return (
-    <main className="relative h-screen">
-      <section>
+    <main className="relative h-screen flex flex-row">
+      <section className="w-[57.92%]">
         <Navbar />
         <HeroText />
       </section>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import arrowRight from '../../public/assets/icons/arrowRight.svg'
+import Link from 'next/link'
 
 const HeroText = () => {
     return (
@@ -20,12 +21,13 @@ const HeroText = () => {
                 <br />
                 that come from the synergy of design and technology
             </p>
-            <button
-            className='mt-[40px] h-[80px] w-[299px] main_btn_container main_btn_txt'
-            type='button'>
+            <Link
+                className='mt-[40px] h-[80px] w-[299px] main_btn_container main_btn_txt'
+                href='/blog'
+            >
                 Let’s Collaborate
                 <Image className='w-[48px] h-[48px]' src={arrowRight} alt="arrow icon" />
-            </button>
+            </Link>
         </section>
     )
 }
