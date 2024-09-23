@@ -85,6 +85,7 @@ Este desafio irá verificar se o candidato possuí as seguintes habilidades em u
 ![image](https://github.com/DevPBDias/fullstack-junior-1/assets/98185872/5be8b4ec-37d4-4d03-a0ae-9c17a481caa0)
 
 </details>
+</br>
 
 ## 🖥 Quais tecnologias foram utilizadas?
 <div align="left">
@@ -106,7 +107,7 @@ Este desafio irá verificar se o candidato possuí as seguintes habilidades em u
 </details>
 </br>
 
-🔎 Como me localizar no projeto?
+## 🔎 Como me localizar no projeto?
 
 ### Todos os arquivos de código fonte do projeto estão em: `./`
 
