@@ -198,9 +198,9 @@ Este desafio irá verificar se o candidato possuí as seguintes habilidades em u
 ## ❤️ Créditos
 
 <details>
-  <summary>Créditos do figma total a equipe LegaPlan</summary>
+  <summary>Créditos do figma total a equipe NaranjaLabs</summary>
   
-> <a href="https://www.figma.com/design/4iESWnasLZSHyghg1ipj1P/Teste-Dev-Junior---Legaplan?node-id=0-1&node-type=canvas&t=GxQUSS4KxQUWBUBN-0" target="_blank">https://www.figma.com/design/4iESWnasLZSHyghg1ipj1P/Teste-Dev-Junior---Legaplan?node-id=0-1&node-type=canvas&t=GxQUSS4KxQUWBUBN-0</a>
+> <a href="https://encurtador.com.br/buzKZ" target="_blank">https://encurtador.com.br/buzKZ</a>
 
 </details>
 <details>
